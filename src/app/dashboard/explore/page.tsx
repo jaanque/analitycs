@@ -1,7 +1,5 @@
-export default function ExplorePage() {
-    return (
-        <div>
-            <h1 className="text-2xl font-semibold text-zinc-950 tracking-tight">Explorar</h1>
-        </div>
-    );
+import PagePlaceholder from "@/components/dashboard/PagePlaceholder";
+
+export default function Page() {
+    return <PagePlaceholder title="Explorar Datos" description="Constructor de consultas personalizadas para cruzar tablas e inventar nuevas métricas." />;
 }

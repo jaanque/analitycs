@@ -1,7 +1,5 @@
-export default function DemographicsPage() {
-    return (
-        <div>
-            <h1 className="text-2xl font-semibold text-zinc-950 tracking-tight">Datos demográficos</h1>
-        </div>
-    );
+import PagePlaceholder from "@/components/dashboard/PagePlaceholder";
+
+export default function Page() {
+    return <PagePlaceholder title="Datos Demográficos" description="Filtra el alcance por país, edad, dispositivo y otras métricas del comportamiento geográfico." />;
 }

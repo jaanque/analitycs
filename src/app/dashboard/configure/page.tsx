@@ -1,7 +1,5 @@
-export default function ConfigurePage() {
-    return (
-        <div>
-            <h1 className="text-2xl font-semibold text-zinc-950 tracking-tight">Configurar</h1>
-        </div>
-    );
+import PagePlaceholder from "@/components/dashboard/PagePlaceholder";
+
+export default function Page() {
+    return <PagePlaceholder title="Configuración del Espacio" description="Ajusta las propiedades del proyecto, permisos de equipo e integraciones API." />;
 }

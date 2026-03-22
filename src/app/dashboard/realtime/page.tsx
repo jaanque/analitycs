@@ -1,7 +1,5 @@
-export default function RealtimePage() {
-    return (
-        <div>
-            <h1 className="text-2xl font-semibold text-zinc-950 tracking-tight">Tiempo Real</h1>
-        </div>
-    );
+import PagePlaceholder from "@/components/dashboard/PagePlaceholder";
+
+export default function Page() {
+    return <PagePlaceholder title="Tiempo Real" description="Monitoriza a los usuarios activos y las métricas que ocurren en este mismo instante." />;
 }

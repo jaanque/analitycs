@@ -1,7 +1,5 @@
-export default function EngagementPage() {
-    return (
-        <div>
-            <h1 className="text-2xl font-semibold text-zinc-950 tracking-tight">Interacción</h1>
-        </div>
-    );
+import PagePlaceholder from "@/components/dashboard/PagePlaceholder";
+
+export default function Page() {
+    return <PagePlaceholder title="Interacción de Usuarios" description="Mide cómo los usuarios navegan y se relacionan con tus funcionalidades clave." />;
 }

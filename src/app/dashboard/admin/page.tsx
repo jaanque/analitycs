@@ -1,7 +1,5 @@
-export default function AdminPage() {
-    return (
-        <div>
-            <h1 className="text-2xl font-semibold text-zinc-950 tracking-tight">Administración</h1>
-        </div>
-    );
+import PagePlaceholder from "@/components/dashboard/PagePlaceholder";
+
+export default function Page() {
+    return <PagePlaceholder title="Administración Central" description="Gestiona licencias, facturación y la estructura completa de tu base de datos." />;
 }

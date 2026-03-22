@@ -1,7 +1,5 @@
-export default function AcquisitionPage() {
-    return (
-        <div>
-            <h1 className="text-2xl font-semibold text-zinc-950 tracking-tight">Adquisición</h1>
-        </div>
-    );
+import PagePlaceholder from "@/components/dashboard/PagePlaceholder";
+
+export default function Page() {
+    return <PagePlaceholder title="Adquisición de Usuarios" description="Descubre cómo los usuarios encuentran e instalan tu producto." />;
 }
