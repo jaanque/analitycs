@@ -71,7 +71,7 @@ export default function PagePlaceholder({ title, description }: { title: string,
                         </div>
                         <div className="w-20 h-8 bg-zinc-100 rounded-[6px] gsap-pulse opacity-70"></div>
                     </div>
-                    <div className="flex-1 w-full bg-gradient-to-t from-zinc-50 to-transparent rounded-[8px] border border-zinc-100 border-dashed gsap-pulse opacity-50 relative overflow-hidden">
+                    <div className="flex-1 w-full bg-linear-to-t from-zinc-50 to-transparent rounded-[8px] border border-zinc-100 border-dashed gsap-pulse opacity-50 relative overflow-hidden">
                         {/* Fake chart lines via CSS */}
                         <div className="absolute bottom-0 left-0 w-full h-[60%] border-t border-zinc-200 transform -skew-y-3"></div>
                         <div className="absolute bottom-0 left-0 w-full h-[30%] border-t border-zinc-200 transform skew-y-6"></div>
